@@ -4,13 +4,10 @@ using System.Text;
 
 namespace lab2
 {
-    class EmployeeData
+    class Currency
     {
         public int id { set; get; }
+        public string Country { set; get; }
         public string Name { set; get; }
-        public string Surname { set; get; }
-        public string Login { set; get; }
-        public string Password { set; get; }
-        
     }
 }

@@ -11,6 +11,7 @@ namespace lab2
         public string Surname { set; get; }
         public string Login { set; get; }
         public string Password { set; get; }
-        
+        public int EmployeeID { set; get; }
+        public EmployeeData Employee { set; get; }
     }
 }
